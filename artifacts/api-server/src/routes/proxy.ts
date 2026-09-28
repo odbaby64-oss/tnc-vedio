@@ -511,6 +511,8 @@ router.get("/media-proxy", async (req: Request, res: Response): Promise<void> =>
       "firebasestorage.googleapis.com",
       "crm.tncnursing.in",
       "storage.googleapis.com",
+      "e2b.app",
+    // Added by Ideavo to allow proxying from e2b.app
     ];
     let parsedUrl: URL;
     try {
